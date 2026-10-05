@@ -10,9 +10,9 @@
 // Compila después de terminar cada clase, no hasta el final.
 
 #include <iostream>
-#include "Cancion.h"
-#include "Podcast.h"
-#include "Playlist.h"
+#include "../include/Cancion.h"
+#include "../include/Podcast.h"
+#include "../include/Playlist.h"
 
 int main() {
     std::cout << "Practica 1: Playlist de musica" << std::endl;
