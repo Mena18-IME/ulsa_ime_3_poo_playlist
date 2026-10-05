@@ -20,7 +20,7 @@ bool Playlist::agregarCancion(Cancion* cancion) {
         }
     }
     canciones.push_back(cancion);
-    return true
+    return true;
 }
 
 // TODO 4.3: implementa  bool Playlist::agregarPodcast(Podcast* podcast)
