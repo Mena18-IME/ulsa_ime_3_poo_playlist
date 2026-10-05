@@ -10,10 +10,14 @@ private:
     int segundos;
 
 public:
+    Duracion();
     Duracion(int min, int seg);
 
     int getMinutos() const;
     int getSegundos() const;
+
+    int totalSegundos() const;
+    void imprimir() const;
 
     // TODO 1.2: declara  int totalSegundos() const;
 

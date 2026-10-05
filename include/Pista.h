@@ -20,6 +20,9 @@ public:
     std::string getTitulo() const;
     Duracion getDuracion() const;
 
+    void setTitulo(const std::string& nuevoTitulo);
+    void mostrarInfo() const;
+
     // TODO 2.2: declara  void setTitulo(const std::string& nuevoTitulo);
 
     // TODO 2.3: declara  void mostrarInfo() const;
